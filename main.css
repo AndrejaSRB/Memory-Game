@@ -1,0 +1,136 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url("img/back.jpg");
+    opacity: .9;
+}
+.wrapp {
+    width: 1000px;
+    height: 1000px;
+    margin: 0 auto;
+}
+.container {
+    width: 560px;
+    height: 560px;
+    box-shadow: 0 0 8px;
+    margin: 50px auto;
+}
+.box{
+    width: 70px;
+    height: 70px;
+    float: left;
+    border: 1px solid #eee;
+    position: relative;
+    cursor: pointer;
+}
+.front{
+    background-color: #983132;
+    width: 70px;
+    height: 70px;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: .7s transform;
+   
+}
+
+.back{
+    background-color: #353535;
+    width: 70px;
+    height: 70px;
+    backface-visibility: hidden;
+    display: block;
+    position: absolute;
+    text-align: center;
+    line-height: 70px;
+    color: #eee;
+    font-size: 38px;
+    transition: .7s transform;
+}
+img {
+    width: 70px;
+    height: 70px;
+}
+.score{
+    width: 600px;
+    margin: 0 auto;
+    position: absolute;
+    top: 700px;
+    left: 770px;
+}
+p {
+    font-size: 30px;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    color: #eee;
+}
+.time {
+    width: 70px;
+    height: 560px;
+    box-shadow: 0 0 8px;
+    position: absolute;
+    top: 50px;
+    right: 100px;
+    background-color: #eee;
+}
+.clock{
+    width: 70px;
+    height: 0%;
+    background: linear-gradient(to bottom, #ff6600 41%, #ff3300 72%);
+}
+.timeRemaning {
+    position: absolute;
+    font-size: 70px;
+    top: 270px;
+    left: 579px;
+    color: tomato;
+    background-color: toamto;
+}
+.image {
+    position: absolute;
+    right: 300px;
+    top: 210px;
+    display: none;
+}
+.image img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+    
+}
+.image:hover {
+    transform: rotate(180deg,180deg)
+}
+.box2 {
+    width: 70px;
+    height: 70px;
+    float: left;
+    border: 1px solid #eee;
+    position: relative;
+    cursor: pointer;
+}
+.front2{
+    background-color: #983132;
+    width: 70px;
+    height: 70px;
+    backface-visibility: hidden;
+    position: absolute;
+    transition: .7s transform;
+   
+}
+
+.back2{
+    background-color: #353535;
+    width: 70px;
+    height: 70px;
+    backface-visibility: hidden;
+    display: block;
+    position: absolute;
+    text-align: center;
+    line-height: 70px;
+    color: #eee;
+    font-size: 38px;
+    transition: .7s transform;
+}
